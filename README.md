@@ -2,8 +2,6 @@
 
 Windows batch script to backup multiple MySQL databases automatically with logs and scheduling.
 
----
-
 ## What This Tool Does
 
 * Backup multiple databases at once
@@ -12,7 +10,6 @@ Windows batch script to backup multiple MySQL databases automatically with logs 
 * Auto adds daily scheduler (Windows)
 * Lightweight (no extra setup)
 
----
 
 ## Setup
 
@@ -47,7 +44,6 @@ backup.bat
 C:\MySQL_Backups_test\
 ```
 
----
 
 ## Windows Scheduler (Auto)
 
@@ -71,7 +67,6 @@ Script automatically creates a scheduled task.
    MySQL_Daily_test_Backup
    ```
 
----
 
 ## Linux Setup (Cron Job)
 
@@ -99,7 +94,6 @@ crontab -e
 0 18 * * * /path/to/backup.sh
 ```
 
----
 
 ## Where You Can Use It
 
@@ -108,7 +102,6 @@ crontab -e
 * Testing environments
 * Small server automation
 
----
 
 ##  Notes
 
@@ -116,9 +109,3 @@ crontab -e
 * `mysqldump` path must be correct
 * DB names must exist
 * Add password if needed
-
----
-
-
-
----
